@@ -1,24 +1,25 @@
 /* Selectionner les titres H1 et les mettre en rouge */
-*{
-    font-family:Arial, Helvetica, sans-serif;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     color: red;
 }
 
 /* Selectionner une classe */
-.police{
+.police {
     color: blue;
     font-size: large;
 }
 
 /* Selectionner par id */
-#titre-vert{
+#titre-vert {
     color: green;
 }
 
-p,section{
+p,
+section {
     font-size: 15px;
 }
 
@@ -28,10 +29,18 @@ section h3 {
 }
 
 /* Sélecteur d'élement enfant */
-div > span {
+div>span {
     background-color: aqua;
 }
 
-span{
-background-color: yellow;    
+span {
+    background-color: yellow;
+}
+
+/* Selecteur d'elements adjacents
+permet la selection des paragraphes immédiatement apres un article
+*/
+article+p {
+    background-color: crimson;
+    color: white;
 }
