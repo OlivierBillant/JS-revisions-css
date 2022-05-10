@@ -1,0 +1,10 @@
+/* Selectionner les titres H1 et les mettre en rouge */
+h1{
+    color: red;
+}
+
+/* Selectionner une classe */
+.police{
+    color: blue;
+    font-size: large;
+}
