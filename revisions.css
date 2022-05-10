@@ -1,4 +1,8 @@
 /* Selectionner les titres H1 et les mettre en rouge */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 h1{
     color: red;
 }
@@ -7,4 +11,27 @@ h1{
 .police{
     color: blue;
     font-size: large;
+}
+
+/* Selectionner par id */
+#titre-vert{
+    color: green;
+}
+
+p,section{
+    font-size: 15px;
+}
+
+/* Sélecteur élément descendant */
+section h3 {
+    color: purple;
+}
+
+/* Sélecteur d'élement enfant */
+div > span {
+    background-color: aqua;
+}
+
+span{
+background-color: yellow;    
 }
